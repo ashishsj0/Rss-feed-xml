@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8018BB6B1E4B4B6C00E23DF5 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018BB6A1E4B4B6C00E23DF5 /* BlogPost.swift */; };
+		8018BB6D1E4B4B7400E23DF5 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018BB6C1E4B4B7400E23DF5 /* PostViewController.swift */; };
+		8018BB6F1E4B4B7D00E23DF5 /* BRTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018BB6E1E4B4B7D00E23DF5 /* BRTableViewController.swift */; };
+		80D20BBE1E485FF900A4D71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20BBD1E485FF900A4D71D /* AppDelegate.swift */; };
+		80D20BC01E485FF900A4D71D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20BBF1E485FF900A4D71D /* ViewController.swift */; };
+		80D20BC31E485FF900A4D71D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D20BC11E485FF900A4D71D /* Main.storyboard */; };
+		80D20BC61E485FF900A4D71D /* Small_Day_Login.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80D20BC41E485FF900A4D71D /* Small_Day_Login.xcdatamodeld */; };
+		80D20BC81E485FF900A4D71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D20BC71E485FF900A4D71D /* Assets.xcassets */; };
+		80D20BCB1E485FF900A4D71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D20BC91E485FF900A4D71D /* LaunchScreen.storyboard */; };
+		80D20BD31E4861EB00A4D71D /* registerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D20BD21E4861EB00A4D71D /* registerViewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8018BB6A1E4B4B6C00E23DF5 /* BlogPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		8018BB6C1E4B4B7400E23DF5 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8018BB6E1E4B4B7D00E23DF5 /* BRTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BRTableViewController.swift; sourceTree = "<group>"; };
+		80D20BBA1E485FF900A4D71D /* Small Day Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Small Day Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D20BBD1E485FF900A4D71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D20BBF1E485FF900A4D71D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80D20BC21E485FF900A4D71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D20BC51E485FF900A4D71D /* Small_Day_Login.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Small_Day_Login.xcdatamodel; sourceTree = "<group>"; };
+		80D20BC71E485FF900A4D71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D20BCA1E485FF900A4D71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D20BCC1E485FF900A4D71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D20BD21E4861EB00A4D71D /* registerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D20BB71E485FF900A4D71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D20BB11E485FF900A4D71D = {
+			isa = PBXGroup;
+			children = (
+				80D20BBC1E485FF900A4D71D /* Small Day Login */,
+				80D20BBB1E485FF900A4D71D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D20BBB1E485FF900A4D71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D20BBA1E485FF900A4D71D /* Small Day Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D20BBC1E485FF900A4D71D /* Small Day Login */ = {
+			isa = PBXGroup;
+			children = (
+				8018BB6A1E4B4B6C00E23DF5 /* BlogPost.swift */,
+				8018BB6C1E4B4B7400E23DF5 /* PostViewController.swift */,
+				8018BB6E1E4B4B7D00E23DF5 /* BRTableViewController.swift */,
+				80D20BBD1E485FF900A4D71D /* AppDelegate.swift */,
+				80D20BBF1E485FF900A4D71D /* ViewController.swift */,
+				80D20BC11E485FF900A4D71D /* Main.storyboard */,
+				80D20BD21E4861EB00A4D71D /* registerViewViewController.swift */,
+				80D20BC71E485FF900A4D71D /* Assets.xcassets */,
+				80D20BC91E485FF900A4D71D /* LaunchScreen.storyboard */,
+				80D20BCC1E485FF900A4D71D /* Info.plist */,
+				80D20BC41E485FF900A4D71D /* Small_Day_Login.xcdatamodeld */,
+			);
+			path = "Small Day Login";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D20BB91E485FF900A4D71D /* Small Day Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D20BCF1E485FF900A4D71D /* Build configuration list for PBXNativeTarget "Small Day Login" */;
+			buildPhases = (
+				80D20BB61E485FF900A4D71D /* Sources */,
+				80D20BB71E485FF900A4D71D /* Frameworks */,
+				80D20BB81E485FF900A4D71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Small Day Login";
+			productName = "Small Day Login";
+			productReference = 80D20BBA1E485FF900A4D71D /* Small Day Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D20BB21E485FF900A4D71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mahendra L";
+				TargetAttributes = {
+					80D20BB91E485FF900A4D71D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80D20BB51E485FF900A4D71D /* Build configuration list for PBXProject "Small Day Login" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D20BB11E485FF900A4D71D;
+			productRefGroup = 80D20BBB1E485FF900A4D71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D20BB91E485FF900A4D71D /* Small Day Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D20BB81E485FF900A4D71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D20BCB1E485FF900A4D71D /* LaunchScreen.storyboard in Resources */,
+				80D20BC81E485FF900A4D71D /* Assets.xcassets in Resources */,
+				80D20BC31E485FF900A4D71D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D20BB61E485FF900A4D71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D20BD31E4861EB00A4D71D /* registerViewViewController.swift in Sources */,
+				8018BB6F1E4B4B7D00E23DF5 /* BRTableViewController.swift in Sources */,
+				80D20BC01E485FF900A4D71D /* ViewController.swift in Sources */,
+				8018BB6D1E4B4B7400E23DF5 /* PostViewController.swift in Sources */,
+				80D20BBE1E485FF900A4D71D /* AppDelegate.swift in Sources */,
+				8018BB6B1E4B4B6C00E23DF5 /* BlogPost.swift in Sources */,
+				80D20BC61E485FF900A4D71D /* Small_Day_Login.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80D20BC11E485FF900A4D71D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D20BC21E485FF900A4D71D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D20BC91E485FF900A4D71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D20BCA1E485FF900A4D71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D20BCD1E485FF900A4D71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D20BCE1E485FF900A4D71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D20BD01E485FF900A4D71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Small Day Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallday.Small-Day-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80D20BD11E485FF900A4D71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Small Day Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallday.Small-Day-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D20BB51E485FF900A4D71D /* Build configuration list for PBXProject "Small Day Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D20BCD1E485FF900A4D71D /* Debug */,
+				80D20BCE1E485FF900A4D71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D20BCF1E485FF900A4D71D /* Build configuration list for PBXNativeTarget "Small Day Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D20BD01E485FF900A4D71D /* Debug */,
+				80D20BD11E485FF900A4D71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80D20BC41E485FF900A4D71D /* Small_Day_Login.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80D20BC51E485FF900A4D71D /* Small_Day_Login.xcdatamodel */,
+			);
+			currentVersion = 80D20BC51E485FF900A4D71D /* Small_Day_Login.xcdatamodel */;
+			path = Small_Day_Login.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80D20BB21E485FF900A4D71D /* Project object */;
+}
